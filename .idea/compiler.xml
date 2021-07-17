@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="IO" />
+        <module name="Nio" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="IO" target="1.7" />
+      <module name="Nio" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
